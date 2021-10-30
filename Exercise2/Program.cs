@@ -19,6 +19,12 @@ namespace Exercise2
         {
             OrderedDynamicArray<Prostokat> tablica = new OrderedDynamicArray<Prostokat>();
 
+            Prostokat prostokat1 = new Prostokat(3, 4);
+            Prostokat prostokat2 = new Prostokat(2, 5);
+
+            tablica.Add(prostokat1);
+            tablica.Add(prostokat2);
+
             Console.WriteLine();
         }
     }
