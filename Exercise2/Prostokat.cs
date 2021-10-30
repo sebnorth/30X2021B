@@ -54,5 +54,10 @@ namespace Exercise2
 
         
         }
+
+        public override string ToString()
+        {
+            return $"Prostokąt o szerokości: {szerokosc} i wysokości: {wysokosc}";
+        }
     }
 }

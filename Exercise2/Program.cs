@@ -21,11 +21,16 @@ namespace Exercise2
 
             Prostokat prostokat1 = new Prostokat(3, 4);
             Prostokat prostokat2 = new Prostokat(2, 5);
+            Prostokat prostokat3 = new Prostokat(11, 1);
 
             tablica.Add(prostokat1);
             tablica.Add(prostokat2);
+            tablica.Add(prostokat3);
 
-            Console.WriteLine();
+
+
+            Console.WriteLine(tablica);
+            Console.ReadKey();
         }
     }
 }
